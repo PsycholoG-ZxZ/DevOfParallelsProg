@@ -1,3 +1,3 @@
 # DevOfParallelsProg
 Labs
-HELP
+HELP ME
