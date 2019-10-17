@@ -1,3 +1,2 @@
 # DevOfParallelsProg
-Labs
-HELP ME
+Labs made by Kurushin Dmitry
