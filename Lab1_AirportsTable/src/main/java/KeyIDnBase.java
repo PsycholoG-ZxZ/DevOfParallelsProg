@@ -4,6 +4,8 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public int aeroport_id;
     public int base;
 
-    public KeyIDnBase
+    public KeyIDnBase(){
+        
+    }
 
 }
