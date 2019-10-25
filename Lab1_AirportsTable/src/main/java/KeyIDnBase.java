@@ -26,8 +26,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     }
 
     public int compareTo (KeyIDnBase keyNeitr) {
-
-        
+        int act = 
         return ;
 
     }
