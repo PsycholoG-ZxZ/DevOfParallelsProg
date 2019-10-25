@@ -10,6 +10,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, LongWritable, Text
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
         String data[] =Parser.parseIdDescr(value);
         String id = data[0];
+        
 
 
     }
