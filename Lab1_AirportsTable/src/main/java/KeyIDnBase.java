@@ -9,7 +9,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         this.base = new int();
     }
     public KeyIDnBase(String id, int baseOut){
-        this.aeroport_id = toInteger.id.replace("\"", "");
+        this.aeroport_id = Integer.parseInt().id.replace("\"", "");
         this.base = baseOut;
     }
 
