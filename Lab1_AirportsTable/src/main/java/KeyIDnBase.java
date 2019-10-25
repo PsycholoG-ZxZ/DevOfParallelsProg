@@ -17,7 +17,9 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         this.base = baseOut;
     }
 
-    public 
+    public int getAeroport_id(){
+        
+    }
 
     public void readFields(DataInput in) throws IOException{
 
