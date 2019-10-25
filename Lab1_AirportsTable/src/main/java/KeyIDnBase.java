@@ -5,12 +5,13 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public int base;
 
     public KeyIDnBase(){
-        this.aeroport_id = new int;
-        this.base = new int;
+        this.aeroport_id = -1;
+        this.base = -1;
     }
     public KeyIDnBase(String id, int baseOut){
         this.aeroport_id = Integer.parseInt(id.replace("\"", ""));
         this.base = baseOut;
     }
+    
 
 }
