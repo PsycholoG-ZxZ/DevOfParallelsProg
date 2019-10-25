@@ -18,7 +18,11 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     }
 
     public int getAeroport_id(){
-        
+        return aeroport_id;
+    }
+
+    public int getBase(){
+        return base;
     }
 
     public void readFields(DataInput in) throws IOException{
