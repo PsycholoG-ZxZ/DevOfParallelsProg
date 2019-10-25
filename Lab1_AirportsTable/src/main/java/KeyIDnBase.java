@@ -25,7 +25,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
 
     }
 
-    public int compareTo (DataOutput out) throws IOException{
+    public int compareTo (KeyIDnBase key) throws IOException{
 
     }
 
