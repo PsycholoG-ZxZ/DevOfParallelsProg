@@ -1,3 +1,3 @@
 public class Parser {
-    public static String[] parse
+    public static String[] parseIdDisc
 }
