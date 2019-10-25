@@ -11,7 +11,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, LongWritable, Text
         String data[] =Parser.parseIdDescr(value);
         String id = data[0];
         KeyIDnBase aKey = new KeyIDnBase(id, 0);
-        Text title = 
+        Text title = new Text()
 
 
     }
