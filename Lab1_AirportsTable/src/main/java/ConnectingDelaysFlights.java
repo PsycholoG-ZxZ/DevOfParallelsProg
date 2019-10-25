@@ -11,6 +11,9 @@ public class ConnectingDelaysFlights{
         Job job = Job.getInstance();
         job.setJarByClass(ConnectingDelaysFlights.class);
         job.setJobName("Connecting");
-        
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(IntWritable.class);
+        job.setNumReduceTasks(2);
+        System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
