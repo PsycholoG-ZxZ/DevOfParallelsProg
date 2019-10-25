@@ -18,10 +18,14 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     }
 
     public void readFields(DataInput in) throws IOException{
-        
+
     }
 
     public void write (DataOutput out) throws IOException{
+
+    }
+
+    public void comareTo (DataOutput out) throws IOException{
 
     }
 
