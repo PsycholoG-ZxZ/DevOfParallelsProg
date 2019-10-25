@@ -17,6 +17,8 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         this.base = baseOut;
     }
 
+    public 
+
     public void readFields(DataInput in) throws IOException{
 
     }
@@ -27,7 +29,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
 
     public int compareTo (KeyIDnBase keyNeitr) {
         int act = aeroport_id.compareTo(keyNeitr.aeroport_id);
-        return 1;
+        return 0;
 
     }
 
