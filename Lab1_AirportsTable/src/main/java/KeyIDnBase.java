@@ -17,7 +17,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         this.base = baseOut;
     }
 
-    public void readField
+    public void readFields()
 
     public void write (DataOutput) throws IOException{
 
