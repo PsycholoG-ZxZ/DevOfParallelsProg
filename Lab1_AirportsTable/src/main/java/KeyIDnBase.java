@@ -10,19 +10,19 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     private IntWritable base;
 
     public KeyIDnBase(){
-        this.aeroport_id = -1;
-        this.base = -1;
+        this.aeroport_id = new IntWritable();
+        this.base = new IntWritable();
     }
     public KeyIDnBase(String id, int baseOut){
         this.aeroport_id = new IntWritable(Integer.parseInt(id.replace("\"", "")));
         this.base = new IntWritable( baseOut );
     }
 
-    public int getAeroport_id(){
+    public IntWritable getAeroport_id(){
         return aeroport_id;
     }
 
-    public int getBase(){
+    public IntWritable getBase(){
         return base;
     }
 
