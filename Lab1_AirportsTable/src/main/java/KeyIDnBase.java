@@ -32,9 +32,8 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public void write (DataOutput out) throws IOException{
 
     }
-    
-    @Override
-    public int compareTo (KeyIDnBase keyNeitr) {
+
+    public int compareTo(KeyIDnBase keyNeitr) {
         int act = aeroport_id.compareTo(keyNeitr.getAeroport_id());
         if (act != 0)
             return act;
