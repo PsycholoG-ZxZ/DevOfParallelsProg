@@ -12,7 +12,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, LongWritable, Text
         String id = data[0];
         KeyIDnBase aKey = new KeyIDnBase(id, 0);
         Text title = new Text(data[1]);
-        
+        context
 
 
     }
