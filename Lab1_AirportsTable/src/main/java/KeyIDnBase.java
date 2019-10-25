@@ -5,7 +5,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public int base;
 
     public KeyIDnBase(){
-        
+        this.
     }
 
 }
