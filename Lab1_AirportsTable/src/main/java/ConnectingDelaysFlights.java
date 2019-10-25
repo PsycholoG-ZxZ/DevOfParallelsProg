@@ -9,7 +9,8 @@ public class ConnectingDelaysFlights{
         if (args.length != 2) System.exit(-1);
 
         Job job = Job.getInstance();
-        job.setJarByClass();
-        job.setJobName("Word count");
+        job.setJarByClass(ConnectingDelaysFlights.class);
+        job.setJobName("Connecting");
+        
     }
 }
