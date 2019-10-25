@@ -2,6 +2,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
+import java.io.IOException;
 
 public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public int aeroport_id;
@@ -16,6 +17,6 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         this.base = baseOut;
     }
 
-    public void write (DataOutput) throws 
+    public void write (DataOutput) throws IOException
 
 }
