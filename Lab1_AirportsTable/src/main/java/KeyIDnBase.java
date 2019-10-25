@@ -1,5 +1,7 @@
 import org.apache.hadoop.io.WritableComparable;
 
+import java.io.DataInput;
+
 public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public int aeroport_id;
     public int base;
@@ -13,6 +15,6 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         this.base = baseOut;
     }
 
-    public void write 
+    public void write (DataInput)
 
 }
