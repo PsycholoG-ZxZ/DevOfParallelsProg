@@ -27,11 +27,13 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     }
 
     public void readFields(DataInput in) throws IOException{
-
+        aeroport_id.readFields(in);
+        base.readFields(in);
     }
 
     public void write (DataOutput out) throws IOException{
-        aeroport_id.write();
+        aeroport_id.write(out);
+        base.write(out);
     }
 
     public int compareTo(KeyIDnBase keyNeitr) {
