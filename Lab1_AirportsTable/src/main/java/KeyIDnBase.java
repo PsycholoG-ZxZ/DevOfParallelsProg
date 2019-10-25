@@ -30,7 +30,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     }
 
     public void write (DataOutput out) throws IOException{
-        aeroport_id.write
+        aeroport_id.write();
     }
 
     public int compareTo(KeyIDnBase keyNeitr) {
