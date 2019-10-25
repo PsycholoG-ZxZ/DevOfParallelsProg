@@ -5,8 +5,8 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
-    public int aeroport_id;
-    public int base;
+    private int aeroport_id;
+    private int base;
 
     public KeyIDnBase(){
         this.aeroport_id = -1;
