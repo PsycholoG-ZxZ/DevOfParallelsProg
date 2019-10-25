@@ -8,9 +8,9 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         this.aeroport_id = new int();
         this.base = new int();
     }
-    public KeyIDnBase(int id, int ){
-        this.aeroport_id = new int();
-        this.base = new int();
+    public KeyIDnBase(String id, int baseOut){
+        this.aeroport_id = id.replace();
+        this.base = baseOut;
     }
 
 }
