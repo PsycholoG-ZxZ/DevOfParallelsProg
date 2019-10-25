@@ -1,3 +1,7 @@
+import org.apache.hadoop.io.Text;
+
 public class Parser {
-    public static String[] parseIdDescr
+    public static String[] parseIdDescr(Text str){
+        String[] data = str.
+    }
 }
