@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
-              <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -570,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
-          <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
