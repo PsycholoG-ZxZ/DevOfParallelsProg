@@ -7,7 +7,7 @@ public class GroupingComparator extends WritableComparator{
     }
     @Override
     public int compare (WritableComparable ComparablePairFrst, WritableComparable ComparablePairSec){
-        KeyIDnBase CompareblePairFrst
+        KeyIDnBase CPFrst = 
         return 0;
     }
 }
