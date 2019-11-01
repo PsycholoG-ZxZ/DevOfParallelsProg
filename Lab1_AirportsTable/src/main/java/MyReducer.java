@@ -9,6 +9,8 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
     protected void reduce (KeyIDnBase key, Iterable<Text> value, Context context) throws IOException,InterruptedException {
         Iterator<Text> iter = value.iterator();
         double MidDelay = 0;
+        double HighDelay = 0;
+        double LowDelay = 9999999;
         double sum = 0;
         while (iter.hasNext()){
             double delay = Double.parseDouble(iter.next().toString());
