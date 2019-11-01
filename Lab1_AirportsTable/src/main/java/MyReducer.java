@@ -19,7 +19,7 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
             i++;
         }
         if (sum >= 0){
-            MidDelay = 
+            MidDelay = sum / i;
         }
     }
 }
