@@ -7,7 +7,11 @@ public class Parser {
         String[] data = str.toString().split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
         return data;
     }
-    
+    public static String[] parseSmall(Text str) {
+        String[] data = str.toString().split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
+        return data;
+    }
+
 
 
 
