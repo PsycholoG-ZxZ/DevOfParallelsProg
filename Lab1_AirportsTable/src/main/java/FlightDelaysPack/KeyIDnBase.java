@@ -66,10 +66,11 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         if (base == keyNeitr.getBase()){
             return 0;
         }else{
-            if (base== keyNeitr.getBase()){
-                return 
+            if (base > keyNeitr.getBase()){
+                return 1;
+            }else{
+                return -1;
             }
         }
     }
-
 }
