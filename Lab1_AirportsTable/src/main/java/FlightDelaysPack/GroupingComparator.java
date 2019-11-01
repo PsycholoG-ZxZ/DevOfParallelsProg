@@ -15,6 +15,6 @@ public class GroupingComparator extends WritableComparator{
         if (CP_Frst.aeroport_id == CP_Sec.getAeroport_id()) return 0;
         if (CP_Frst.aeroport_id > CP_Sec.getAeroport_id()) return 1;
         if (CP_Frst.aeroport_id < CP_Sec.getAeroport_id()) return -1;
-
+        return 0;
     }
 }
