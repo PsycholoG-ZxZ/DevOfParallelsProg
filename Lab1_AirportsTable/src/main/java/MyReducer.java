@@ -29,7 +29,7 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
             String output = "Min: " + LowDelay + " Mid: " + MidDelay + " Max: " + HighDelay;
             Text outputText = new Text (output);
             iter = value.iterator();
-            Text ID = 
+            Text ID = new Text ()
             context.write ();
         }
     }
