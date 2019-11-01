@@ -59,11 +59,11 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         if (aeroport_id < keyNeitr.getAeroport_id()){
             act = -1;
         }
-        
+
         if (act != 0)
             return act;
-        return base.compareTo(keyNeitr.getBase());
-
+        //return base.compareTo(keyNeitr.getBase());
+        return 
     }
 
 }
