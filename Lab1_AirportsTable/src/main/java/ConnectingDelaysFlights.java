@@ -22,7 +22,8 @@ public class ConnectingDelaysFlights{
         job.setGroupingComparatorClass(GroupingComparator.class);
         job.setPartitionerClass(MyPartitioner.class);
         job.setReducerClass(MyReducer.class);
-        job.setMapOutputKeyClass();
+        job.setMapOutputKeyClass(KeyIDnBase.class);
+        
         job.setNumReduceTasks(2);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
