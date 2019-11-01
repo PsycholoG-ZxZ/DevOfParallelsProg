@@ -18,7 +18,10 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
             sum += delay;
             i++;
             if (HighDelay <= delay){
-
+                HighDelay = delay;
+            }
+            if (LowDelay >= delay){
+                LowDelay = delay;
             }
         }
         if (sum >= 0){
