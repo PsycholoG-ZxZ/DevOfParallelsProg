@@ -4,5 +4,5 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
     @Override
-    protected void reduce (KeyIDnBase key)
+    protected void reduce (KeyIDnBase key, )
 }
