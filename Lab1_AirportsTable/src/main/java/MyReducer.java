@@ -6,5 +6,5 @@ import java.util.Iterator;
 
 public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
     @Override
-    protected void reduce (KeyIDnBase key, Iterable<Text>)
+    protected void reduce (KeyIDnBase key, Iterable<Text> value)
 }
