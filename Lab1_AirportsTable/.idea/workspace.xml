@@ -88,9 +88,11 @@
       <file leaf-file-name="MyReducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="54">
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/main/java/MyPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConnectingDelaysFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/GroupingComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MyReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyReducer.java" />
       </list>
     </option>
   </component>
@@ -557,9 +559,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
