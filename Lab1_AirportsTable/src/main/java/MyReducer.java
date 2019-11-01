@@ -1,2 +1,2 @@
-public class MyReducer {
+public class MyReducer ex {
 }
