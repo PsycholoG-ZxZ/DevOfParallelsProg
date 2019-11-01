@@ -8,9 +8,9 @@ public class FlightMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text>  
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
         String data[] =Parser.parseIdDescr(value);
-        String id = data[];
+        String id = data[14];
         KeyIDnBase aKey = new KeyIDnBase(id, 1);
-        Text del = new Text(data[1]);
+        Text del = new Text(data[17]);
         context.write(aKey,title);
     }
 }
