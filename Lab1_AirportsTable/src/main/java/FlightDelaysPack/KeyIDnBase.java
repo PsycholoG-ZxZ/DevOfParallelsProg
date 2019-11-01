@@ -39,7 +39,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     }
 
     public void write (DataOutput out) throws IOException{
-        out.
+        out.writeInt();
     }
 
     public int compareTo(KeyIDnBase keyNeitr) {
