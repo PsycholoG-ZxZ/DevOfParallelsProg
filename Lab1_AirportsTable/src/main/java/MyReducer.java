@@ -26,7 +26,7 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
         }
         if (sum >= 0){
             MidDelay = sum / i;
-            String 
+            String Output = 
         }
     }
 }
