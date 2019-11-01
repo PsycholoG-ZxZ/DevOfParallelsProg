@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class ConnectingDelaysFlights{
     public static void main (String[] args) throws Exception {
-        if (args.length != 2) System.exit(-1);
+        if (args.length != 3) System.exit(-1);
 
         Job job = Job.getInstance();
         job.setJarByClass(ConnectingDelaysFlights.class);
