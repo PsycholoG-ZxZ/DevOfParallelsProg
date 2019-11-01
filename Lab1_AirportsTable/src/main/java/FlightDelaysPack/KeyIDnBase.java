@@ -1,3 +1,5 @@
+package FlightDelaysPack;
+
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.WritableComparable;
 

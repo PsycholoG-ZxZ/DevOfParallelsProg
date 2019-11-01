@@ -1,5 +1,5 @@
-import com.sun.org.apache.xalan.internal.xsltc.dom.KeyIndex;
-import org.apache.hadoop.io.IntWritable;
+package FlightDelaysPack;
+
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
