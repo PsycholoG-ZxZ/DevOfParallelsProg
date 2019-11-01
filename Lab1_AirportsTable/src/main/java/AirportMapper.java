@@ -15,5 +15,6 @@ public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> 
         KeyIDnBase aKey = new KeyIDnBase(id, 0);
         Text title = new Text(data[1]);
         context.write(aKey,title);
+        
     }
 }
