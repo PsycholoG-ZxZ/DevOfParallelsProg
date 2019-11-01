@@ -1,2 +1,2 @@
-public class GroupingComparator extends  {
+public class GroupingComparator extends WritableC {
 }
