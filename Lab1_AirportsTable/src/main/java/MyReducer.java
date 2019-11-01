@@ -14,7 +14,9 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
         double sum = 0;
         int i = 0;
         while (iter.hasNext()){
-            double delay = Double.parseDouble(iter.next().toString());
+            String iteration = iter.next().toString();
+            if (iteration == " "){break;}
+            double delay = Double.parseDouble(iteration);
             sum += delay;
             i++;
             if (HighDelay <= delay){
@@ -24,7 +26,7 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
                 LowDelay = delay;
             }
         }
-        if (sum >= 0){
+        if (sum > 0){
             MidDelay = sum / i;
             String output = "Min: " + LowDelay + " Mid: " + MidDelay + " Max: " + HighDelay;
             Text outputText = new Text (output);
