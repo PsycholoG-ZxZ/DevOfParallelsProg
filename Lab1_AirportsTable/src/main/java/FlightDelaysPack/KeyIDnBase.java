@@ -29,7 +29,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         return aeroport_id;
     }
 
-    public IntWritable getBase(){
+    public int getBase(){
         return base;
     }
 
