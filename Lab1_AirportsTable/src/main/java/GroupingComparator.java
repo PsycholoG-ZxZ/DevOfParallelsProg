@@ -7,6 +7,7 @@ public class GroupingComparator extends WritableComparator{
     }
     @Override
     public int compare (WritableComparable ComparablePairFrst, WritableComparable ComparablePairSec){
-            return 0;
+            
+        return 0;
     }
 }
