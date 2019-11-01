@@ -12,9 +12,12 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
         double HighDelay = 0;
         double LowDelay = 9999999;
         double sum = 0;
+        int i = 0;
         while (iter.hasNext()){
             double delay = Double.parseDouble(iter.next().toString());
             sum += delay;
+            i++;
+
         }
     }
 }
