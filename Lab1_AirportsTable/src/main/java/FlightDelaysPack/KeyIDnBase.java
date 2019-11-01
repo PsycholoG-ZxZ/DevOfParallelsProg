@@ -63,7 +63,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         if (act != 0)
             return act;
         //return base.compareTo(keyNeitr.getBase());
-        return 
+        if ()
     }
 
 }
