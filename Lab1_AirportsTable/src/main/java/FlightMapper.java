@@ -9,7 +9,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text>  
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
         String data[] =Parser.parseIdDescr(value);
         String id = data[0];
-        KeyIDnBase aKey = new KeyIDnBase(id, 0);
+        KeyIDnBase aKey = new KeyIDnBase(id, 1);
         Text title = new Text(data[1]);
         context.write(aKey,title);
     }
