@@ -7,11 +7,15 @@ import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+import javax.security.auth.login.AppConfigurationEntry;
+import javax.security.auth.login.Configuration;
+
 public class ConnectingDelaysFlights{
     public static void main (String[] args) throws Exception {
         if (args.length != 3) System.exit(-1);
 
         Job job = Job.getInstance();
+        Configuration conf = new Configuration();
         job.setJarByClass(ConnectingDelaysFlights.class);
         job.setJobName("Connecting");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
