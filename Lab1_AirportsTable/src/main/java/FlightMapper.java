@@ -10,7 +10,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text>  
         String data[] =Parser.parseIdDescr(value);
         String id = data[0];
         KeyIDnBase aKey = new KeyIDnBase(id, 1);
-        Text title = new Text(data[1]);
+        Text del = new Text(data[1]);
         context.write(aKey,title);
     }
 }
