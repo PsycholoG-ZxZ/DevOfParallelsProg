@@ -11,8 +11,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     private IntWritable base;
 
     public KeyIDnBase(){
-        this.aeroport_id = new IntWritable();
-        this.base = new IntWritable();
+
     }
     public KeyIDnBase(String id, int baseOut){
         this.aeroport_id = new IntWritable(Integer.parseInt(id.replace("\"", "")));
