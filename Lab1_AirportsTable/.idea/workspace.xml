@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnectingDelaysFlights.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConnectingDelaysFlights.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ConnectingDelaysFlights.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -85,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyReducer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyReducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyReducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -537,16 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConnectingDelaysFlights.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -561,6 +551,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConnectingDelaysFlights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
