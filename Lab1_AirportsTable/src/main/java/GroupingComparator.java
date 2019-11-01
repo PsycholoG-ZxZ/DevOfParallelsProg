@@ -6,7 +6,7 @@ public class GroupingComparator extends WritableComparator{
         super (KeyIDnBase.class, true);
     }
     @Override
-    public int compare (WritableComparable ComparablePair, WritableComparable second){
+    public int compare (WritableComparable ComparablePairFrst, WritableComparable ComparablePairSec){
             return 0;
     }
 }
