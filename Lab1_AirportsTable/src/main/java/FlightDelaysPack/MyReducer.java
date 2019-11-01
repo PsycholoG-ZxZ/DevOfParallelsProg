@@ -34,8 +34,8 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
             Text outputText = new Text (output);
             iter = value.iterator();
             Text ID = new Text (iter.next());
-            ID = new Text ("TestPatch");
-            outputText = new Text ("123");
+            //ID = new Text ("TestPatch");
+            //outputText = new Text ("123");
             context.write (ID, outputText);
         }
     }
