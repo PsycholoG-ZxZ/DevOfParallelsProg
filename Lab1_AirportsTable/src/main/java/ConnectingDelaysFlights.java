@@ -21,7 +21,8 @@ public class ConnectingDelaysFlights{
         job.setOutputValueClass(ConnectingDelaysFlights.class);
         job.setGroupingComparatorClass(GroupingComparator.class);
         job.setPartitionerClass(MyPartitioner.class);
-        job.set
+        job.setReducerClass(MyReducer.class);
+        
         job.setNumReduceTasks(2);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
