@@ -36,12 +36,14 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public void readFields(DataInput in) throws IOException{
       //  aeroport_id.readFields(in);
        // base.readFields(in);
-        aeroport_id = in.readInt()
+        aeroport_id = in.readInt();
+        base = in.readInt();
     }
 
     public void write (DataOutput out) throws IOException{
-        aeroport_id.write(out);
-        base.write(out);
+        //aeroport_id.write(out);
+        //base.write(out);
+        out.writeChar();
     }
 
     public int compareTo(KeyIDnBase keyNeitr) {
