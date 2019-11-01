@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -537,7 +537,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
