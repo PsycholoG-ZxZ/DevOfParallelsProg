@@ -12,6 +12,9 @@ public class GroupingComparator extends WritableComparator{
         KeyIDnBase CP_Frst = (KeyIDnBase) ComparablePairFrst;
         KeyIDnBase CP_Sec = (KeyIDnBase) ComparablePairSec;
         //return CP_Frst.getAeroport_id().compareTo(CP_Sec.getAeroport_id());
-        return 
+        if (CP_Frst.aeroport_id == CP_Sec.getAeroport_id()) return 0;
+        if (CP_Frst.aeroport_id > CP_Sec.getAeroport_id()) return 1;
+        if (CP_Frst.aeroport_id < CP_Sec.getAeroport_id()) return -1;
+
     }
 }
