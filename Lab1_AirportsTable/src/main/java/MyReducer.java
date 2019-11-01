@@ -17,6 +17,9 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
             double delay = Double.parseDouble(iter.next().toString());
             sum += delay;
             i++;
+            if (HighDelay <= delay){
+
+            }
         }
         if (sum >= 0){
             MidDelay = sum / i;
