@@ -11,6 +11,7 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
         double MidDelay = 0;
         double sum = 0;
         while (iter.hasNext()){
+            
 
         }
     }
