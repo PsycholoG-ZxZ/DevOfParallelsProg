@@ -20,7 +20,8 @@ public class ConnectingDelaysFlights{
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(ConnectingDelaysFlights.class);
         job.setGroupingComparatorClass(GroupingComparator.class);
-        job.setPartitionerClass(MyPartitioner);
+        job.setPartitionerClass(MyPartitioner.class);
+        job.set
         job.setNumReduceTasks(2);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
