@@ -21,10 +21,11 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     public KeyIDnBase(String id, int baseOut){
         //this.aeroport_id = new IntWritable(Integer.parseInt(id.replace("\"", "")));
         //this.base = new IntWritable( baseOut );
-        
+        aeroport_id = Integer.parseInt(id);
+        base = baseOut;
     }
 
-    public IntWritable getAeroport_id(){
+    public int getAeroport_id(){
         return aeroport_id;
     }
 
