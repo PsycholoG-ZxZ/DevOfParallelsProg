@@ -18,6 +18,7 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
             if (iteration == " "){break;}
             double delay = Double.parseDouble(iteration);
             sum += delay;
+            //сумма 
             i++;
             if (HighDelay <= delay){
                 HighDelay = delay;
