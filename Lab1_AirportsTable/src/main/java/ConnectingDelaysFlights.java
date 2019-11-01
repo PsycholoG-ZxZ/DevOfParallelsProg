@@ -13,6 +13,7 @@ public class ConnectingDelaysFlights{
         job.setJobName("Connecting");
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(ConnectingDelaysFlights.class);
+        job.setGroupingComparatorClass(GroupingComparator.class);
         job.setNumReduceTasks(2);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
