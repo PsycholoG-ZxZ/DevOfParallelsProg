@@ -14,7 +14,7 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
         double sum = 0;
         while (iter.hasNext()){
             double delay = Double.parseDouble(iter.next().toString());
-            
+            sum += delay;
         }
     }
 }
