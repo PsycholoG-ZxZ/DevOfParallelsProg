@@ -13,7 +13,7 @@ public class ConnectingDelaysFlights{
         Job job = Job.getInstance();
         job.setJarByClass(ConnectingDelaysFlights.class);
         job.setJobName("Connecting");
-        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat);
+        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, );
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(ConnectingDelaysFlights.class);
         job.setGroupingComparatorClass(GroupingComparator.class);
