@@ -30,7 +30,7 @@ public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
             Text outputText = new Text (output);
             iter = value.iterator();
             Text ID = new Text (iter.next());
-            context.write ();
+            context.write (ID, outputText);
         }
     }
 }
