@@ -1,2 +1,2 @@
-public class MyReducer ex {
+public class MyReducer extends {
 }
