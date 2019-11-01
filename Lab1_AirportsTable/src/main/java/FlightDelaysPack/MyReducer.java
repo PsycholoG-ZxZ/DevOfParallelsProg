@@ -33,6 +33,7 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
             String output = "Min: " + LowDelay + " Mid: " + MidDelay + " Max: " + HighDelay;
             Text outputText = new Text (output);
             iter = value.iterator();
+            iter.next();
             Text ID = new Text (iter.next());
             context.write (ID, outputText);
         }
