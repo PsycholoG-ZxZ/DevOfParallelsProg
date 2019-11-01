@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#189#190#0" expanded="true" />
@@ -489,7 +489,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/GroupingComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
