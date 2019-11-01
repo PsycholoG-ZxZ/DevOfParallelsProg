@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupingComparator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupingComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/GroupingComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -95,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyIDnBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KeyIDnBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="515">
@@ -550,6 +550,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/GroupingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -560,18 +572,6 @@
             <element signature="e#818#819#0" expanded="true" />
             <element signature="e#845#846#0" expanded="true" />
             <element signature="e#872#873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/GroupingComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
