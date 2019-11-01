@@ -12,7 +12,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> 
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
         String data[] =Parser.parseIdDescr(value);
         String id = data[0];
-        if (id.equals("Code")) {return; }
+        if (id.equals("Code,De")) {return; }
         KeyIDnBase aKey = new KeyIDnBase(id, 0);
         Text title = new Text(data[1]);
         context.write(aKey,title);
