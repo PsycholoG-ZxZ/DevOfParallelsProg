@@ -8,7 +8,8 @@ import java.util.Iterator;
 public class MyReducer extends Reducer <LongWritable, Text, LongWritable, Text>{
     protected void reduce (KeyIDnBase key, Iterable<Text> value, Context context) throws IOException,InterruptedException {
         Iterator<Text> iter = value.iterator();
-        double Mid
+        double MidDelay = 0;
+        
         while (iter.hasNext()){
 
         }
