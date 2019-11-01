@@ -8,16 +8,20 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
-    private IntWritable aeroport_id;
-    private IntWritable base;
+    //private IntWritable aeroport_id;
+    //private IntWritable base;
+    int aeroport_id;
+    int base;
 
     public KeyIDnBase(){
-        this.aeroport_id = new IntWritable();
-        this.base = new IntWritable();
+    //    this.aeroport_id = new IntWritable();
+    //    this.base = new IntWritable();
+
     }
     public KeyIDnBase(String id, int baseOut){
-        this.aeroport_id = new IntWritable(Integer.parseInt(id.replace("\"", "")));
-        this.base = new IntWritable( baseOut );
+        //this.aeroport_id = new IntWritable(Integer.parseInt(id.replace("\"", "")));
+        //this.base = new IntWritable( baseOut );
+        
     }
 
     public IntWritable getAeroport_id(){
