@@ -16,7 +16,7 @@ public class ConnectingDelaysFlights{
         if (args.length != 3) System.exit(-1);
 
         Job job = Job.getInstance();
-        org.apache.hadoop.conf.Configuration conf = new org.apache.hadoop.conf.Configuration();
+        Configuration conf = new Configuration();
         job.setJarByClass(ConnectingDelaysFlights.class);
         job.setJobName("Connecting");
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightMapper.class);
