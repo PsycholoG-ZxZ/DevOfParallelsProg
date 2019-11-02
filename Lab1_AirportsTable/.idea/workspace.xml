@@ -54,8 +54,8 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -99,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#701#702#0" expanded="true" />
@@ -140,10 +140,10 @@
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/ConnectingDelaysFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyPartitioner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/FlightMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/Parser.java" />
       </list>
     </option>
   </component>
@@ -538,7 +538,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
@@ -571,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
       </provider>
