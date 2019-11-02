@@ -6,6 +6,7 @@ import org.apache.hadoop.io.WritableComparable;
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
+import java.util.Objects;
 
 public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     //private IntWritable aeroport_id;
@@ -47,7 +48,20 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
 
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        KeyIDnBase that = (KeyIDnBase) o;
+        return Objects.equals(base, that.base) &&
+                Objects.equals(aeroport_id, that.aeroport_id);
+    }
 
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(base, aeroport_id);
+    }
 
     @Override
     public String toString() {
