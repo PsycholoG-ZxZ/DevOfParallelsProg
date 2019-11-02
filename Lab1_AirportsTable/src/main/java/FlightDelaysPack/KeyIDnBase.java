@@ -46,10 +46,9 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
 
     }
 
-/*
+
     @Override
     public String toString() {
         return " " + aeroport_id + " ";
     }
-    */
 }
