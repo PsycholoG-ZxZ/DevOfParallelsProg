@@ -36,7 +36,7 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
             //ID = new Text ("TestPatch");
             //outputText = new Text ("123");
 
-        context.write (ID, outputText);
+        context.write (new Text (ID), new Text  (outputText));
 
     }
 }
