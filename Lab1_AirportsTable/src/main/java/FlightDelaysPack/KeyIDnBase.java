@@ -42,7 +42,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         int act = aeroport_id.compareTo(keyNeitr.aeroport_id);
         if (act != 0)
             return act;
-        return this.base.compareTo(keyNeitr.base);
+        return base.compareTo(keyNeitr.base);
 
     }
 
