@@ -1,5 +1,6 @@
 package FlightDelaysPack;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
@@ -7,19 +8,19 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
-    private IntWritable aeroport_id;
+    //private IntWritable aeroport_id;
     private IntWritable base;
-
+    private Text aeroport_id;
     public KeyIDnBase(){
-        this.aeroport_id = new IntWritable();
+        this.aeroport_id = new Text();
         this.base = new IntWritable();
     }
     public KeyIDnBase(String id, int baseOut){
-        this.aeroport_id = new IntWritable(Integer.parseInt(id.replace("\"", "")));
+        this.aeroport_id = new Text(id.replace("\"", ""));
         this.base = new IntWritable( baseOut );
     }
 
-    public IntWritable getAeroport_id(){
+    public Text getAeroport_id(){
         return aeroport_id;
     }
 
