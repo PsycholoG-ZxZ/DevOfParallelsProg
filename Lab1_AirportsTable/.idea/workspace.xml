@@ -86,8 +86,8 @@
       <file leaf-file-name="MyReducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="92" lean-forward="true" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+            <state relative-caret-position="684">
+              <caret line="38" column="59" lean-forward="true" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/FlightMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java" />
       </list>
     </option>
   </component>
@@ -603,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="92" lean-forward="true" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+        <state relative-caret-position="684">
+          <caret line="38" column="59" lean-forward="true" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
