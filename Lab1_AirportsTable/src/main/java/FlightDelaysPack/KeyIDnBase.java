@@ -46,21 +46,8 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         return base.compareTo(keyNeitr.getBase());
 
     }
+    
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        KeyIDnBase that = (KeyIDnBase) o;
-        return Objects.equals(base, that.base) &&
-                Objects.equals(aeroport_id, that.aeroport_id);
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(base, aeroport_id);
-    }
 
     @Override
     public String toString() {
