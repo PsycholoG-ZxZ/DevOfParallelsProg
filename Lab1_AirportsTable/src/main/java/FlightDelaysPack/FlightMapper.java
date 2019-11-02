@@ -13,7 +13,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text>  
         if (data[17].equals("\"ARR_DELAY\"")) {return; }
         if (data[17].equals("")) {return; }
         String id = data[14];
-        KeyIDnBase aKey = new KeyIDnBase(id, 1);
+        KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), 1);
         Text title = new Text(data[17]);
         context.write(aKey,title);
     }
