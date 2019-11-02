@@ -10,7 +10,7 @@ import java.util.Iterator;
 public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
     protected void reduce (KeyIDnBase key, Iterable<Text> value, Context context) throws IOException,InterruptedException {
         Iterator<Text> iter = value.iterator();
-        iter.next();
+        Text ID = new Text (iter.next());
         double MidDelay = 0;
         double HighDelay = 0;
         double LowDelay = 9999999;
@@ -33,8 +33,6 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
             MidDelay = sum / i;
             String output = "Min: " + LowDelay + " Mid: " + MidDelay + " Max: " + HighDelay;
             Text outputText = new Text (output);
-            iter = value.iterator();
-            Text ID = new Text (iter.next());
             //ID = new Text ("TestPatch");
             //outputText = new Text ("123");
 
