@@ -10,7 +10,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> 
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
-        String data[] =Parser.parseSmall(value);
+        String data[] =Parser.parseIdDescr(value);
         String id = data[0];
         if (id.equals("Code")) {return; }
         KeyIDnBase aKey = new KeyIDnBase(id, 0);
