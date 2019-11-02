@@ -1,8 +1,8 @@
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/KeyIDnBase.java
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/AirportMapper.java
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightMapper.java
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/MyPartitioner.java
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/GroupingComparator.java
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/Parser.java
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/ConnectingDelaysFlights.java
-/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/MyReducer.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/MyReducer.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/Parser.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/FlightMapper.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/MyPartitioner.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/GroupingComparator.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/KeyIDnBase.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/ConnectingDelaysFlights.java
+/home/dmitry/LabsDevParallel/DevOfParallelsProg/Lab1_AirportsTable/src/main/java/FlightDelaysPack/AirportMapper.java
