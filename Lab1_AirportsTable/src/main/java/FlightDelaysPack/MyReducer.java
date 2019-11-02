@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Iterator;
 
 public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
-    protected void reduce(KeyIDnBase key, Iterable<Text> value, Context context) throws IOException,InterruptedException {
+    protected void reduce (KeyIDnBase key, Iterable<Text> value, Context context) throws IOException,InterruptedException {
         Iterator<Text> iter = value.iterator();
         Text ID = new Text (iter.next());
         double MidDelay = 0;
@@ -18,7 +18,7 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
         int i = 0;
         while (iter.hasNext()){
             String iteration = iter.next().toString();
-            if (iteration == ""){break;}
+            if (iteration == " "){break;}
             double delay = Double.parseDouble(iteration);
             sum += delay;
             i++;
@@ -36,7 +36,7 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
             //ID = new Text ("TestPatch");
             //outputText = new Text ("123");
 
-        context.write (new Text (ID), new Text  ("Min: " + LowDelay + " Mid: " + MidDelay + " Max: " + HighDelay));
+        context.write (new Text (ID), outputText);
 
     }
 }
