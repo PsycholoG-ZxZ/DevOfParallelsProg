@@ -28,7 +28,7 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
                 LowDelay = delay;
             }
         }
-        if (sum > 0){
+        if (i == 0){ return;}
             MidDelay = sum / i;
             String output = "Min: " + LowDelay + " Mid: " + MidDelay + " Max: " + HighDelay;
             Text outputText = new Text (output);
@@ -36,7 +36,8 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
             Text ID = new Text (iter.next());
             //ID = new Text ("TestPatch");
             //outputText = new Text ("123");
-            context.write (ID, outputText);
-        }
+
+        context.write (ID, outputText);
+
     }
 }
