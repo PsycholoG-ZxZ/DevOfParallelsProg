@@ -46,14 +46,11 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         return base.compareTo(keyNeitr.getBase());
 
     }
-    
+
 
 
     @Override
     public String toString() {
-        return "KeyIDnBase{" +
-                "base=" + base +
-                ", aeroport_id=" + aeroport_id +
-                '}';
+        return " " + aeroport_id + " ";
     }
 }
