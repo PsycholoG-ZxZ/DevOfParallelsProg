@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnectingDelaysFlights.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConnectingDelaysFlights.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/ConnectingDelaysFlights.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyReducer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyReducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="55" />
+            <state relative-caret-position="684">
+              <caret line="38" column="112" lean-forward="false" selection-start-line="38" selection-start-column="112" selection-end-line="38" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConnectingDelaysFlights.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/ConnectingDelaysFlights.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/GroupingComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/FlightMapper.java" />
@@ -147,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FlightDelaysPack/ConnectingDelaysFlights.java" />
       </list>
     </option>
   </component>
@@ -528,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/ConnectingDelaysFlights.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -564,6 +554,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="112" lean-forward="false" selection-start-line="38" selection-start-column="112" selection-end-line="38" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -586,26 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/KeyIDnBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/ConnectingDelaysFlights.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightDelaysPack/MyReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="55" />
+        <state relative-caret-position="432">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

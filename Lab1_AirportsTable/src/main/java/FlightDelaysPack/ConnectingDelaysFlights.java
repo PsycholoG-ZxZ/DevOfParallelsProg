@@ -19,8 +19,8 @@ public class ConnectingDelaysFlights{
         org.apache.hadoop.conf.Configuration conf = new org.apache.hadoop.conf.Configuration();
         job.setJarByClass(ConnectingDelaysFlights.class);
         job.setJobName("Connecting");
-        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightMapper.class);
+        MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         Path outputPath = new Path(args[2]);
         job.setPartitionerClass(MyPartitioner.class);
