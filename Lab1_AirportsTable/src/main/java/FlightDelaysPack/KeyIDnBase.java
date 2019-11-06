@@ -34,6 +34,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         aeroport_id.readFields(in);
         base.readFields(in);
     }
+    
 
     public void write (DataOutput out) throws IOException{
         aeroport_id.write(out);
@@ -48,20 +49,6 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
 
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        KeyIDnBase that = (KeyIDnBase) o;
-        return Objects.equals(base, that.base) &&
-                Objects.equals(aeroport_id, that.aeroport_id);
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(base, aeroport_id);
-    }
 
     @Override
     public String toString() {
