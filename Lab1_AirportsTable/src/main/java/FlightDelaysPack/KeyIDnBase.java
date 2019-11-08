@@ -41,20 +41,20 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     }
 
     public void write (DataOutput out) throws IOException{
-        out.write(aeroport_id);
-        out.write(base);
+        aeroport_id.write(out);
+        base.write(out);
     }
 
     public int compareTo(KeyIDnBase keyNeitr) {
-        int act = compare(aeroport_id,keyNeitr.aeroport_id);
+        int act = aeroport_id.compareTo(keyNeitr.aeroport_id);
         if (act != 0)
             return act;
-        return compare(base,keyNeitr.base);
+        return base.compareTo(keyNeitr.base);
 
     }
 
-    @Override
-    public String toString() {
-        return " " + aeroport_id + " ";
-    }
+    //@Override
+    //public String toString() {
+     //   return " " + aeroport_id + " ";
+    //}
 }
