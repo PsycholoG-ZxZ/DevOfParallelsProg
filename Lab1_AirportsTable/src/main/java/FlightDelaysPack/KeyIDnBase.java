@@ -15,6 +15,8 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     private Text aeroport_id;
     //private int aeroport_id, i;
     public KeyIDnBase(){
+        this.aeroport_id = new Text();
+        this.base = new IntWritable();
 
     }
     public KeyIDnBase(String id, int baseOut){
