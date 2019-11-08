@@ -18,14 +18,15 @@ public class MyReducer extends Reducer <LongWritable, Text, Text, Text>{
         int i = 0;
         while (iter.hasNext()){
             double delay = Double.parseDouble(iter.next().toString(););
-            sum += delay;
-            i++;
             if (HighDelay <= delay){
                 HighDelay = delay;
             }
             if (LowDelay >= delay){
                 LowDelay = delay;
             }
+            sum += delay;
+            i++;
+
         }
         if (i == 0){ return;}
             MidDelay = sum / i;
