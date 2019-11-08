@@ -11,44 +11,47 @@ import java.util.Objects;
 public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
     //private IntWritable aeroport_id;
     private IntWritable base;
+    //private int base;
     private Text aeroport_id;
     //private int aeroport_id, i;
     public KeyIDnBase(){
-        this.base = new IntWritable();
+
     }
-    public KeyIDnBase(String id, int baseOut){
-       // this.aeroport_id = new Text(id.replace("\"", ""));
-        this.base = new IntWritable( baseOut );
+    public KeyIDnBase(int id, int baseOut){
+        aeroport_id = id;
+        base = baseOut;
 
     }
 
-    public Text getAeroport_id(){
+    public int getAeroport_id(){
         return aeroport_id;
     }
 
-    public IntWritable getBase(){
+    public int getBase(){
         return base;
     }
 
     public void readFields(DataInput in) throws IOException{
-        aeroport_id.readFields(in);
-        base.readFields(in);
+        aeroport_id = in.readInt();
+        base = in.readInt();
     }
-    
+
+    public static int compare (int a, int b){
+        return Integer.compare(a,b);
+    }
 
     public void write (DataOutput out) throws IOException{
-        aeroport_id.write(out);
-        base.write(out);
+        out.write(aeroport_id);
+        out.write(base);
     }
 
     public int compareTo(KeyIDnBase keyNeitr) {
-        int act = aeroport_id.compareTo(keyNeitr.aeroport_id);
+        int act = compare(aeroport_id,keyNeitr.aeroport_id);
         if (act != 0)
             return act;
-        return base.compareTo(keyNeitr.base);
+        return compare(base,keyNeitr.base);
 
     }
-
 
     @Override
     public String toString() {
