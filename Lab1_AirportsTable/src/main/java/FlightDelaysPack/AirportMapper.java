@@ -13,7 +13,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> 
         String data[] =MyParser.parseIdDescr(value);
         String id = data[0];
         if (id.equals("Code")) {return; }
-        KeyIDnBase aKey = new KeyIDnBase(Integer.parseInt(id), 0);
+        KeyIDnBase aKey = new KeyIDnBase(id, 0);
         Text title = new Text(data[1]);
         context.write(aKey,title);
 
