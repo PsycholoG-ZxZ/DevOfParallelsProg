@@ -1,0 +1,170 @@
+"Abilene, TX: Abilene Regional"	Min: -13.0 Mid: 5.3478260869565215 Max: 76.0
+"Aberdeen, SD: Aberdeen Regional"	Min: -36.0 Mid: -8.6 Max: 22.0
+"Atlantic City, NJ: Atlantic City International"	Min: -16.0 Mid: 20.516129032258064 Max: 147.0
+"Adak Island, AK: Adak"	Min: -43.0 Mid: -43.0 Max: 0.0
+"Kodiak, AK: Kodiak Airport"	Min: -11.0 Mid: 39.666666666666664 Max: 76.0
+"Alexandria, LA: Alexandria International"	Min: -24.0 Mid: -2.16 Max: 55.0
+"Augusta, GA: Augusta Regional at Bush Field"	Min: -12.0 Mid: 8.1 Max: 246.0
+"Albany, NY: Albany International"	Min: -21.0 Mid: 11.423728813559322 Max: 241.0
+"Waterloo, IA: Waterloo Regional"	Min: 2.0 Mid: 78.8 Max: 223.0
+"Amarillo, TX: Rick Husband Amarillo International"	Min: -27.0 Mid: 8.547169811320755 Max: 95.0
+"Anchorage, AK: Ted Stevens Anchorage International"	Min: -53.0 Mid: -3.2393162393162394 Max: 375.0
+"Aspen, CO: Aspen Pitkin County Sardy Field"	Min: -27.0 Mid: 16.919354838709676 Max: 136.0
+"Appleton, WI: Outagamie County Regional"	Min: -30.0 Mid: 7.24 Max: 146.0
+"Asheville, NC: Asheville Regional"	Min: -13.0 Mid: 9.277777777777779 Max: 152.0
+"Hartford, CT: Bradley International"	Min: -32.0 Mid: 10.10828025477707 Max: 293.0
+"Bakersfield, CA: Meadows Field"	Min: -37.0 Mid: 16.72 Max: 141.0
+"Billings, MT: Billings Logan International"	Min: -24.0 Mid: 4.4 Max: 58.0
+"Bemidji, MN: Bemidji Regional"	Min: -17.0 Mid: -9.0 Max: 4.0
+"Bellingham, WA: Bellingham International"	Min: -34.0 Mid: -10.8 Max: 20.0
+"Nashville, TN: Nashville International"	Min: -45.0 Mid: 6.108753315649867 Max: 391.0
+"Boston, MA: Logan International"	Min: -37.0 Mid: 7.609375 Max: 292.0
+"Aguadilla, PR: Rafael Hernandez"	Min: -31.0 Mid: 2.5384615384615383 Max: 109.0
+"Brownsville, TX: Brownsville South Padre Island International"	Min: -19.0 Mid: 1.8421052631578947 Max: 51.0
+"Barrow, AK: Wiley Post/Will Rogers Memorial"	Min: -7.0 Mid: 39.6 Max: 306.0
+"Baton Rouge, LA: Baton Rouge Metropolitan/Ryan Field"	Min: -21.0 Mid: 12.666666666666666 Max: 200.0
+"Burlington, VT: Burlington International"	Min: -22.0 Mid: 17.571428571428573 Max: 144.0
+"Buffalo, NY: Buffalo Niagara International"	Min: -27.0 Mid: 5.635593220338983 Max: 128.0
+"Burbank, CA: Bob Hope"	Min: -37.0 Mid: 7.22360248447205 Max: 192.0
+"Columbia, SC: Columbia Metropolitan"	Min: -32.0 Mid: 11.433962264150944 Max: 119.0
+"Cedar City, UT: Cedar City Regional"	Min: -5.0 Mid: 1.2 Max: 15.0
+"Crescent City, CA: Jack McNamara Field"	Min: -35.0 Mid: 20.0 Max: 138.0
+"Charlottesville, VA: Charlottesville Albemarle"	Min: -17.0 Mid: 42.89473684210526 Max: 173.0
+"Charleston, SC: Charleston AFB/International"	Min: -21.0 Mid: 4.348837209302325 Max: 198.0
+"Cedar Rapids/Iowa City, IA: The Eastern Iowa"	Min: -41.0 Mid: 20.296875 Max: 206.0
+"Carlsbad, CA: McClellan-Palomar"	Min: -13.0 Mid: -1.45 Max: 24.0
+"College Station/Bryan, TX: Easterwood Field"	Min: -13.0 Mid: 3.409090909090909 Max: 40.0
+"Champaign/Urbana, IL: University of Illinois/Willard"	Min: -15.0 Mid: 26.65 Max: 129.0
+"Hancock/Houghton, MI: Houghton County Memorial"	Min: -6.0 Mid: 25.833333333333332 Max: 69.0
+"Moab, UT: Canyonlands Field"	Min: -23.0 Mid: -14.4 Max: 0.0
+"Columbia, MO: Columbia Regional"	Min: -21.0 Mid: 37.45454545454545 Max: 380.0
+"Casper, WY: Casper/Natrona County International"	Min: -31.0 Mid: -1.1764705882352942 Max: 98.0
+"Corpus Christi, TX: Corpus Christi International"	Min: -18.0 Mid: 8.686274509803921 Max: 89.0
+"Charleston/Dunbar, WV: Yeager"	Min: -18.0 Mid: 2.5384615384615383 Max: 20.0
+"Cincinnati, OH: Cincinnati/Northern Kentucky International"	Min: -31.0 Mid: 10.188235294117646 Max: 179.0
+"Mosinee, WI: Central Wisconsin"	Min: -11.0 Mid: 24.90909090909091 Max: 150.0
+"Daytona Beach, FL: Daytona Beach International"	Min: -16.0 Mid: 2.1538461538461537 Max: 49.0
+"Dayton, OH: James M Cox/Dayton International"	Min: -23.0 Mid: 5.493150684931507 Max: 218.0
+"Dubuque, IA: Dubuque Regional"	Min: -12.0 Mid: 14.75 Max: 83.0
+"Washington, DC: Ronald Reagan Washington National"	Min: -38.0 Mid: 4.691489361702128 Max: 396.0
+"Denver, CO: Denver International"	Min: -47.0 Mid: 7.9695371997656705 Max: 420.0
+"Dallas/Fort Worth, TX: Dallas/Fort Worth International"	Min: -60.0 Mid: 10.804986642920747 Max: 1201.0
+"Dothan, AL: Dothan Regional"	Min: -15.0 Mid: 15.181818181818182 Max: 91.0
+"Dickinson, ND: Dickinson - Theodore Roosevelt Regional"	Min: -22.0 Mid: 12.636363636363637 Max: 175.0
+"Duluth, MN: Duluth International"	Min: -24.0 Mid: 19.76923076923077 Max: 177.0
+"Des Moines, IA: Des Moines International"	Min: -26.0 Mid: 14.662337662337663 Max: 167.0
+"Devils Lake, ND: Devils Lake Regional"	Min: -12.0 Mid: 28.5 Max: 114.0
+"Panama City, FL: Northwest Florida Beaches International"	Min: -20.0 Mid: -3.4 Max: 31.0
+"Elmira/Corning, NY: Elmira/Corning Regional"	Min: -14.0 Mid: 14.375 Max: 64.0
+"El Paso, TX: El Paso International"	Min: -23.0 Mid: 7.855670103092783 Max: 140.0
+"Erie, PA: Erie International/Tom Ridge Field"	Min: -30.0 Mid: 1.8 Max: 70.0
+"Eugene, OR: Mahlon Sweet Field"	Min: -28.0 Mid: 10.484848484848484 Max: 94.0
+"Evansville, IN: Evansville Regional"	Min: -23.0 Mid: 10.137931034482758 Max: 101.0
+"Newark, NJ: Newark Liberty International"	Min: -48.0 Mid: 8.595663265306122 Max: 557.0
+"Fairbanks, AK: Fairbanks International"	Min: -31.0 Mid: -8.375 Max: 38.0
+"Fresno, CA: Fresno Yosemite International"	Min: -24.0 Mid: 8.96923076923077 Max: 82.0
+"Fayetteville, NC: Fayetteville Regional/Grannis Field"	Min: -21.0 Mid: -2.125 Max: 41.0
+"Sioux Falls, SD: Joe Foss Field"	Min: -29.0 Mid: 16.42622950819672 Max: 165.0
+"Fort Wayne, IN: Fort Wayne International"	Min: -25.0 Mid: 9.481481481481481 Max: 129.0
+"Gillette, WY: Gillette Campbell County"	Min: -41.0 Mid: 2.0833333333333335 Max: 56.0
+"Garden City, KS: Garden City Regional"	Min: -12.0 Mid: -1.5 Max: 22.0
+"Grand Forks, ND: Grand Forks International"	Min: -17.0 Mid: -3.5 Max: 7.0
+"Gainesville, FL: Gainesville Regional"	Min: -16.0 Mid: 3.652173913043478 Max: 86.0
+"Gulfport/Biloxi, MS: Gulfport-Biloxi International"	Min: -19.0 Mid: 4.0 Max: 113.0
+"Green Bay, WI: Austin Straubel International"	Min: -24.0 Mid: 10.195121951219512 Max: 113.0
+"Grand Island, NE: Central Nebraska Regional"	Min: -9.0 Mid: 8.166666666666666 Max: 38.0
+"Killeen, TX: Robert Gray AAF"	Min: -18.0 Mid: 8.052631578947368 Max: 148.0
+"Grand Rapids, MI: Gerald R. Ford International"	Min: -29.0 Mid: 14.348214285714286 Max: 313.0
+"Greensboro/High Point, NC: Piedmont Triad International"	Min: -44.0 Mid: 10.938461538461539 Max: 307.0
+"Hibbing, MN: Range Regional"	Min: -24.0 Mid: 4.5 Max: 51.0
+"Helena, MT: Helena Regional"	Min: -26.0 Mid: -7.666666666666667 Max: 28.0
+"Harlingen/San Benito, TX: Valley International"	Min: -25.0 Mid: 1.3448275862068966 Max: 53.0
+"Huntsville, AL: Huntsville International-Carl T Jones Field"	Min: -16.0 Mid: 15.659574468085106 Max: 159.0
+"Hays, KS: Hays Regional"	Min: -24.0 Mid: -1.0 Max: 15.0
+"Washington, DC: Washington Dulles International"	Min: -47.0 Mid: 6.283707865168539 Max: 256.0
+"Houston, TX: George Bush Intercontinental/Houston"	Min: -49.0 Mid: 7.146718146718147 Max: 464.0
+"Idaho Falls, ID: Idaho Falls Regional"	Min: -14.0 Mid: 17.11111111111111 Max: 103.0
+"Wilmington, NC: Wilmington International"	Min: -18.0 Mid: -0.7692307692307693 Max: 95.0
+"International Falls, MN: Falls International Einarson Field"	Min: -32.0 Mid: -9.5 Max: 33.0
+"Williston, ND: Sloulin Field International"	Min: -22.0 Mid: 14.76 Max: 89.0
+"Hilo, HI: Hilo International"	Min: -16.0 Mid: 0.74 Max: 44.0
+"Jackson/Vicksburg, MS: Jackson Medgar Wiley Evers International"	Min: -25.0 Mid: 6.4603174603174605 Max: 97.0
+"Jacksonville, FL: Jacksonville International"	Min: -40.0 Mid: 3.83125 Max: 142.0
+"Juneau, AK: Juneau International"	Min: -37.0 Mid: -9.08695652173913 Max: 51.0
+"Kona, HI: Kona International Airport at Keahole"	Min: -50.0 Mid: 1.4134615384615385 Max: 148.0
+"Ketchikan, AK: Ketchikan International"	Min: -23.0 Mid: -0.15384615384615385 Max: 43.0
+"Lansing, MI: Capital Region International"	Min: -21.0 Mid: 4.25 Max: 47.0
+"Laramie, WY: Laramie Regional"	Min: -8.0 Mid: 26.142857142857142 Max: 161.0
+"Lawton/Fort Sill, OK: Lawton-Fort Sill Regional"	Min: -13.0 Mid: 7.166666666666667 Max: 45.0
+"Lexington, KY: Blue Grass"	Min: -27.0 Mid: 9.829787234042554 Max: 136.0
+"Long Beach, CA: Long Beach Airport"	Min: -57.0 Mid: -0.43209876543209874 Max: 121.0
+"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field"	Min: -31.0 Mid: 14.673469387755102 Max: 205.0
+"Lincoln, NE: Lincoln Airport"	Min: -16.0 Mid: 10.3 Max: 123.0
+"Laredo, TX: Laredo International"	Min: -19.0 Mid: 14.11111111111111 Max: 172.0
+"La Crosse, WI: La Crosse Regional"	Min: -28.0 Mid: 17.916666666666668 Max: 68.0
+"Saginaw/Bay City/Midland, MI: MBS International"	Min: -18.0 Mid: 17.375 Max: 81.0
+"Harrisburg, PA: Harrisburg International"	Min: -19.0 Mid: 14.9 Max: 124.0
+"Chicago, IL: Chicago Midway International"	Min: -44.0 Mid: 2.953917050691244 Max: 206.0
+"Meridian, MS: Key Field"	Min: -18.0 Mid: 22.444444444444443 Max: 246.0
+"Mission/McAllen/Edinburg, TX: McAllen Miller International"	Min: -19.0 Mid: 19.2972972972973 Max: 142.0
+"Manhattan/Ft. Riley, KS: Manhattan Regional"	Min: -17.0 Mid: 8.785714285714286 Max: 111.0
+"Manchester, NH: Manchester-Boston Regional"	Min: -28.0 Mid: 8.404255319148936 Max: 110.0
+"Milwaukee, WI: General Mitchell International"	Min: -37.0 Mid: 1.861344537815126 Max: 215.0
+"Muskegon, MI: Muskegon County"	Min: -19.0 Mid: 16.25 Max: 81.0
+"Melbourne, FL: Melbourne International"	Min: -20.0 Mid: -6.090909090909091 Max: 9.0
+"Monroe, LA: Monroe Regional"	Min: -19.0 Mid: 18.846153846153847 Max: 161.0
+"Mammoth Lakes, CA: Mammoth Lakes Airport"	Min: -13.0 Mid: 2.25 Max: 27.0
+"Monterey, CA: Monterey Regional"	Min: -22.0 Mid: 11.6 Max: 186.0
+"Madison, WI: Dane County Regional-Truax Field"	Min: -28.0 Mid: 15.657534246575343 Max: 251.0
+"Minneapolis, MN: Minneapolis-St Paul International"	Min: -47.0 Mid: 1.2877939529675253 Max: 371.0
+"Montrose/Delta, CO: Montrose Regional"	Min: -24.0 Mid: 10.0 Max: 137.0
+"Myrtle Beach, SC: Myrtle Beach International"	Min: -11.0 Mid: 10.782608695652174 Max: 104.0
+"Jacksonville/Camp Lejeune, NC: Albert J Ellis"	Min: -14.0 Mid: 1.5454545454545454 Max: 33.0
+"Kahului, HI: Kahului Airport"	Min: -39.0 Mid: 1.9558011049723756 Max: 272.0
+"Norfolk, VA: Norfolk International"	Min: -29.0 Mid: 6.777777777777778 Max: 166.0
+"Worcester, MA: Worcester Regional"	Min: -19.0 Mid: -10.0 Max: 0.0
+"North Bend/Coos Bay, OR: Southwest Oregon Regional"	Min: 30.0 Mid: 30.0 Max: 30.0
+"Paducah, KY: Barkley Regional"	Min: -26.0 Mid: -9.571428571428571 Max: 15.0
+"Portland, OR: Portland International"	Min: -55.0 Mid: 1.3911917098445596 Max: 185.0
+"Phoenix, AZ: Phoenix Sky Harbor International"	Min: -59.0 Mid: 2.66031987814166 Max: 498.0
+"Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional"	Min: -30.0 Mid: -12.0 Max: 14.0
+"Pellston, MI: Pellston Regional Airport of Emmet County"	Min: -15.0 Mid: -8.75 Max: 5.0
+"Pago Pago, TT: Pago Pago International"	Min: -27.0 Mid: -27.0 Max: 0.0
+"Palm Springs, CA: Palm Springs International"	Min: -46.0 Mid: 8.935185185185185 Max: 170.0
+"Pueblo, CO: Pueblo Memorial"	Min: -15.0 Mid: 7.333333333333333 Max: 59.0
+"Providence, RI: Theodore Francis Green State"	Min: -19.0 Mid: 8.091954022988507 Max: 95.0
+"Portland, ME: Portland International Jetport"	Min: -16.0 Mid: 4.909090909090909 Max: 97.0
+"Rapid City, SD: Rapid City Regional"	Min: -23.0 Mid: 6.2631578947368425 Max: 108.0
+"Rock Springs, WY: Rock Springs Sweetwater County"	Min: -25.0 Mid: 1.7692307692307692 Max: 138.0
+"Reno, NV: Reno/Tahoe International"	Min: -40.0 Mid: 4.128205128205129 Max: 149.0
+"Roanoke, VA: Roanoke Regional/Woodrum Field"	Min: -22.0 Mid: 3.0833333333333335 Max: 109.0
+"Rochester, NY: Greater Rochester International"	Min: -28.0 Mid: 10.779411764705882 Max: 163.0
+"Rochester, MN: Rochester International"	Min: -15.0 Mid: 19.875 Max: 179.0
+"Fort Myers, FL: Southwest Florida International"	Min: -40.0 Mid: 3.204152249134948 Max: 484.0
+"San Diego, CA: San Diego International"	Min: -56.0 Mid: 0.054635761589403975 Max: 267.0
+"Deadhorse, AK: Deadhorse Airport"	Min: -20.0 Mid: -3.272727272727273 Max: 12.0
+"Louisville, KY: Louisville International-Standiford Field"	Min: -23.0 Mid: 5.720430107526882 Max: 113.0
+"Seattle, WA: Seattle/Tacoma International"	Min: -55.0 Mid: 3.4288964732650737 Max: 531.0
+"Springfield, MO: Springfield-Branson National"	Min: -23.0 Mid: 14.689655172413794 Max: 223.0
+"St. George, UT: St George Municipal"	Min: -13.0 Mid: -0.7857142857142857 Max: 27.0
+"Sitka, AK: Sitka Rocky Gutierrez"	Min: -19.0 Mid: 8.333333333333334 Max: 81.0
+"San Jose, CA: Norman Y. Mineta San Jose International"	Min: -60.0 Mid: 3.6615853658536586 Max: 206.0
+"San Angelo, TX: San Angelo Regional/Mathis Field"	Min: -9.0 Mid: 4.0 Max: 35.0
+"Sacramento, CA: Sacramento International"	Min: -51.0 Mid: 4.558139534883721 Max: 135.0
+"Santa Maria, CA: Santa Maria Public/Capt. G. Allan Hancock Field"	Min: -19.0 Mid: -4.2 Max: 22.0
+"Springfield, IL: Abraham Lincoln Capital"	Min: -23.0 Mid: 3.0 Max: 51.0
+"St. Louis, MO: Lambert-St. Louis International"	Min: -32.0 Mid: 6.975124378109452 Max: 383.0
+"Christiansted, VI: Henry E. Rohlsen"	Min: -15.0 Mid: -5.333333333333333 Max: 12.0
+"Sun Valley/Hailey/Ketchum, ID: Friedman Memorial"	Min: -19.0 Mid: 4.4 Max: 33.0
+"Newburgh/Poughkeepsie, NY: Stewart International"	Min: -16.0 Mid: 27.428571428571427 Max: 189.0
+"Syracuse, NY: Syracuse Hancock International"	Min: -25.0 Mid: 10.971428571428572 Max: 110.0
+"Tallahassee, FL: Tallahassee International"	Min: -17.0 Mid: -0.625 Max: 55.0
+"Tampa, FL: Tampa International"	Min: -47.0 Mid: 4.10459587955626 Max: 513.0
+"Traverse City, MI: Cherry Capital"	Min: -28.0 Mid: 47.333333333333336 Max: 223.0
+"Texarkana, AR: Texarkana Regional-Webb Field"	Min: -10.0 Mid: -3.7142857142857144 Max: 12.0
+"Knoxville, TN: McGhee Tyson"	Min: -21.0 Mid: 15.189655172413794 Max: 239.0
+"Vernal, UT: Vernal Regional"	Min: -13.0 Mid: 2.0 Max: 19.0
+"Valdosta, GA: Valdosta Regional"	Min: -10.0 Mid: 4.625 Max: 50.0
+"Wrangell, AK: Wrangell Airport"	Min: -22.0 Mid: -0.6666666666666666 Max: 31.0
+"Fayetteville, AR: Northwest Arkansas Regional"	Min: -22.0 Mid: 12.04109589041096 Max: 119.0
+"Yakutat, AK: Yakutat Airport"	Min: -24.0 Mid: 0.6666666666666666 Max: 41.0
