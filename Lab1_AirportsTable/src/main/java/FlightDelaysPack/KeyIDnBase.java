@@ -31,9 +31,9 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
         return base;
     }
 
-    public void readFields(DataInput in) throws IOException{
-        aeroport_id.readFields(in);
-        base.readFields(in);
+    public void readFields(DataInput inpt) throws IOException{
+        aeroport_id.readFields(inpt);
+        base.readFields(inpt);
     }
 
     public static int compare (int a, int b){
