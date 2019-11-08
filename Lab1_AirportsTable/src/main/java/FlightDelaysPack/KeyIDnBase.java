@@ -18,7 +18,7 @@ public class KeyIDnBase implements WritableComparable<KeyIDnBase> {
 
     }
     public KeyIDnBase(String id, int baseOut){
-        aeroport_id = 
+        aeroport_id = new Text()
         base = baseOut;
 
     }
