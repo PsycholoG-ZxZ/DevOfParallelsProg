@@ -8,15 +8,17 @@ import java.io.IOException;
 
 public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> {
 
+    private static int ID_AIR = 0 , DESCR = 1, SEC_TABLE_ID = 0;
+
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
         String data[] =CSVParser.java.parseIdDescr(value);
-        String id = data[0];
+        String id = data[ID_AIR];
         if (id.equals("Code,Description")) {
             return;
         }
-        KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), 0);
-        Text title = new Text(data[1]);
+        KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), SEC_TABLE_ID);
+        Text title = new Text(data[DESCR]);
         context.write(aKey,title);
 
     }
