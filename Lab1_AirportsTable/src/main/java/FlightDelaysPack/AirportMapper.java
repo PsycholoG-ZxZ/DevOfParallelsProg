@@ -14,10 +14,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> 
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
         String data[] =CSVParser.java.parseIdDescr(value);
         String id = data[ID_AIR];
-        if (r) {
-            return;
-        }
-
+        
         KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), SEC_TABLE_ID);
         Text title = new Text(data[DESCR]);
         context.write(aKey,title);
