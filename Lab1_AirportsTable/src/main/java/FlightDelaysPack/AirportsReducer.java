@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class MyReducer extends Reducer<KeyIDnBase, Text, Text, Text>{
+public class AirportsReducer extends Reducer<KeyIDnBase, Text, Text, Text>{
     protected void reduce (KeyIDnBase key, Iterable<Text> value, Context context) throws IOException,InterruptedException {
         Iterator<Text> iter = value.iterator();
         Text ID = new Text (iter.next());

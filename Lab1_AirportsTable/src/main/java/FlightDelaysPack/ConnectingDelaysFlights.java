@@ -23,9 +23,9 @@ public class ConnectingDelaysFlights{
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         Path outputPath = new Path(args[2]);
-        job.setPartitionerClass(MyPartitioner.class);
+        job.setPartitionerClass(AirPartitioner.class);
         job.setGroupingComparatorClass(GroupingComparator.class);
-        job.setReducerClass(MyReducer.class);
+        job.setReducerClass(AirportsReducer.java.class);
         job.setMapOutputKeyClass(KeyIDnBase.class);
         job.setOutputKeyClass(Text.class);
 
