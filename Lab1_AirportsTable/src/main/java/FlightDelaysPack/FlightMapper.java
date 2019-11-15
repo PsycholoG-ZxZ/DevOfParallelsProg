@@ -13,7 +13,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text>  
     @Override
 
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
-        String data[] =CSVParser.java.parseSmall(value);
+        String data[] =CSVParser.parseSmall(value);
         if ((data[DELAY].equals("\"ARR_DELAY\"")) || (data[DELAY].equals(""))) {return; }
         String id = data[ID_AIRPORT];
         KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), SEC_TABLE_ID);

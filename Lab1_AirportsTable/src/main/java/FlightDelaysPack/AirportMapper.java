@@ -12,9 +12,11 @@ public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> 
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
-        String data[] =CSVParser.java.parseIdDescr(value);
+        String data[] =CSVParser.parseIdDescr(value);
         String id = data[ID_AIR];
-
+        if (CSVParser.CheckStringFrstCsv(id)) {
+        return;
+        }
         KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), SEC_TABLE_ID);
         Text title = new Text(data[DESCR]);
         context.write(aKey,title);

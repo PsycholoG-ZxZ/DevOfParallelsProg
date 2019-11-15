@@ -25,7 +25,7 @@ public class ConnectingDelaysFlights{
         Path outputPath = new Path(args[2]);
         job.setPartitionerClass(AirPartitioner.class);
         job.setGroupingComparatorClass(GroupingComparator.class);
-        job.setReducerClass(AirportsReducer.java.class);
+        job.setReducerClass(AirportsReducer.class);
         job.setMapOutputKeyClass(KeyIDnBase.class);
         job.setOutputKeyClass(Text.class);
 

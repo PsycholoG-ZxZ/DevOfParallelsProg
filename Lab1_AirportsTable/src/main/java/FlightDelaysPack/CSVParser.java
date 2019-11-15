@@ -2,11 +2,14 @@ package FlightDelaysPack;
 
 import org.apache.hadoop.io.Text;
 
-private static String FRST_TABLE="Code,Description";
-private static String SEC_TABLE="\"ARR_DELAY\"";
+
 
 
 public class CSVParser {
+
+    private static String FRST_TABLE="Code,Description";
+    private static String SEC_TABLE="\"ARR_DELAY\"";
+
     public static String[] parseIdDescr(Text str) {
         String[] data = str.toString().split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
         return data;
@@ -19,7 +22,10 @@ public class CSVParser {
 
 
     public static boolean CheckStringFrstCsv(String id) {
-            return id.equals("Code,Description");
+            return id.equals(FRST_TABLE);
+    }
+    public static boolean CheckStringSecCsv(String id) {
+        return ((id.equals(SEC_TABLE)) || (id.equals());
     }
 
 
