@@ -14,9 +14,9 @@ public class FlightMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text>  
 
     protected void map(LongWritable key, Text value, Context context) throws IOException,InterruptedException {
         String data[] =CSVParser.parseSmall(value);
-        if ((data[DELAY].equals("\"ARR_DELAY\"")) || (data[DELAY].equals(""))) {return; }
+        if (CSVParser.CheckStringSecCsv(data[DELAY])) {return; }
         String id = data[ID_AIRPORT];
-        KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), SEC_TABLE_ID);
+        KeyIDnBase aKey = new KeyIDnBase(CSVParser.RemoveSlash(id), SEC_TABLE_ID);
         Text title = new Text(data[DELAY]);
         context.write(aKey,title);
     }

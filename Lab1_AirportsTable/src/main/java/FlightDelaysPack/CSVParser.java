@@ -25,7 +25,11 @@ public class CSVParser {
             return id.equals(FRST_TABLE);
     }
     public static boolean CheckStringSecCsv(String id) {
-        return ((id.equals(SEC_TABLE)) || (id.equals());
+        return ((id.equals(SEC_TABLE)) || (id.equals("")));
+    }
+
+    public static String RemoveSlash(String id) {
+        return id.replace("\"", "");
     }
 
 

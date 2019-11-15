@@ -17,7 +17,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, KeyIDnBase, Text> 
         if (CSVParser.CheckStringFrstCsv(id)) {
         return;
         }
-        KeyIDnBase aKey = new KeyIDnBase(id.replace("\"", ""), SEC_TABLE_ID);
+        KeyIDnBase aKey = new KeyIDnBase(CSVParser.RemoveSlash(id), SEC_TABLE_ID);
         Text title = new Text(data[DESCR]);
         context.write(aKey,title);
 
