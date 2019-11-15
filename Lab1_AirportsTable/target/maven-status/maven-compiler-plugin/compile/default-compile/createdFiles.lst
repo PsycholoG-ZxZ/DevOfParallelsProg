@@ -1,8 +1,8 @@
-FlightDelaysPack/MyParser.class
 FlightDelaysPack/KeyIDnBase.class
 FlightDelaysPack/ConnectingDelaysFlights.class
-FlightDelaysPack/MyPartitioner.class
 FlightDelaysPack/AirportMapper.class
-FlightDelaysPack/MyReducer.class
+FlightDelaysPack/AirPartitioner.class
+FlightDelaysPack/CSVParser.class
 FlightDelaysPack/GroupingComparator.class
 FlightDelaysPack/FlightMapper.class
+FlightDelaysPack/AirportsReducer.class
